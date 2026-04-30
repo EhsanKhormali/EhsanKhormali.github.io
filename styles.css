@@ -1,8 +1,10 @@
 body {
   background: url("bg.jpg") no-repeat center center;
-  background-size: 1400px 700px;
-  background-position: 30%;
+  background-size: cover;          /* was: 1400px 700px */
   background-attachment: fixed;
+  min-height: 100vh;               /* add this */
+  margin: 0;                       /* add this — removes default white margin */
+  padding: 0;                      /* add this */
 }
 
 
